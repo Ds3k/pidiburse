@@ -12,22 +12,22 @@ export const Square = ({value, onClick}) => {
 
 //const TicTacToeSquare = ({index}) => <Square value={index} />
 
-export const Board = () => {
+export const Board = ({square, onClick}) => {
     
-    const [square, setSquare] = useState(Array(9).fill(null));
-    const [xIsNext, setXIsNext] = useState(true);
+    //const [square, setSquare] = useState(Array(9).fill(null));
+    //const [xIsNext, setXIsNext] = useState(true);
 
-    const winner = calculateWinner(square);
+    /* const winner = calculateWinner(square);
     let status;
     if (winner) {
         status = `Winner: ${winner}`;
     } else {
         status = `Next player: ${xIsNext ? 'X' : 'O'}`
     }
-
+ */
     //const a = square.slice();
 
-    const handleClick = (i) => {
+    /* const handleClick = (i) => {
         const squares = square.slice();
         if (calculateWinner(square) || square[i]) {
             return ;
@@ -35,60 +35,94 @@ export const Board = () => {
         squares[i] = xIsNext ? 'X' : 'O';
         setSquare(squares);
         setXIsNext(!xIsNext);
-    }
+    } */
   
     return (
         <div>
-            <div className='status'>{status}</div>
             <div className='board-row'>
                 <Square 
                     value={square[0]} 
-                    onClick={() => handleClick(0)} />
+                    onClick={() => onClick(0)} />
                 <Square 
                     value={square[1]} 
-                    onClick={() => handleClick(1)} />
+                    onClick={() => onClick(1)} />
                 <Square 
                     value={square[2]} 
-                    onClick={() => handleClick(2)} />
+                    onClick={() => onClick(2)} />
             </div>
             <div className='board-row'>
                 <Square 
                     value={square[3]} 
-                    onClick={() => handleClick(3)} />
+                    onClick={() => onClick(3)} />
                 <Square 
                     value={square[4]} 
-                    onClick={() => handleClick(4)} />
+                    onClick={() => onClick(4)} />
                 <Square 
                     value={square[5]} 
-                    onClick={() => handleClick(5)} />
+                    onClick={() => onClick(5)} />
             </div>
             <div className='board-row'>
                 <Square 
                     value={square[6]} 
-                    onClick={() => handleClick(6)} />
+                    onClick={() => onClick(6)} />
                 <Square 
                     value={square[7]} 
-                    onClick={() => handleClick(7)} />
+                    onClick={() => onClick(7)} />
                 <Square 
                     value={square[8]} 
-                    onClick={() => handleClick(8)} />
+                    onClick={() => onClick(8)} />
             </div>
         </div>
     )
 }
 
 export const Game = () => {
-    //const [history, setHistory] = useState([{square: Array(9).fill(null)}])
-    //const [xIsNext, setXIsNext] = useState(true);
+    const [history, setHistory] = useState([{squares: Array(9).fill(null)}])
+    const [xIsNext, setXIsNext] = useState(true);
+
+    const current = history[history.length - 1];
+    const winner = calculateWinner(current.squares);
+    
+    const moves = history.map((step, move) => {
+        const desc = move ?
+            `Go to move # ${move}` : 'Go to game start';
+        return (
+            <li>
+                <button onClick={() => this.jumpTo(move)}>{desc}</button>
+            </li>
+        );       
+    });
+    
+    let status;
+    if (winner) {
+        status = 'Winner: ' + winner;
+    } else {
+        status = 'Next player: ' + (xIsNext ? 'X' : 'O')
+    }
+
+    const handleClick = (i) => {
+        const current = history[history.length - 1];
+        const squares = current.square.slice();
+        if (calculateWinner(squares) || squares[i]) {
+            return;
+        }
+        squares[i] = xIsNext ? 'X' : 'O';
+        setHistory(history.concat([squares]))
+        setXIsNext(!xIsNext)
+
+    }
 
     return (
         <div className='game'>
             <div className='game-board'>
-                <Board />
+                <Board 
+                    square={current.square}
+                    onClick={(i) => handleClick(i)}
+                />
             </div>
             <div className='game-info'>
-                <div>{/* status */}</div>
-                <ol>{/* Todo */}</ol>
+                <div>{status}</div>
+                <ol>{moves}</ol>
             </div>
         </div>
     )

@@ -1,0 +1,15 @@
+{
+    "clients":[
+        {
+            "id":"1",
+            "firstName":"John",
+            "lastName":"Doe",
+            "email":"john@gmail.com",
+            "address":"8800 Bellaire Blvd",
+            "city":""
+
+        }
+    ]
+}
+
+

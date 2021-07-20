@@ -1,0 +1,406 @@
+{
+  "clients": [
+    {
+      "id": 20,
+      "firstName": "Beth",
+      "lastName": "Rohan",
+      "email": "Remington65@yahoo.com",
+      "address": "3219 Casey Junction",
+      "city": "West Mina",
+      "state": "AL",
+      "zipcode": "00303-0685"
+    },
+    {
+      "id": 19,
+      "firstName": "Nelle",
+      "lastName": "Schimmel",
+      "email": "Kristopher.Mante54@gmail.com",
+      "address": "18120 Howell Spurs",
+      "city": "New Abnerport",
+      "state": "SC",
+      "zipcode": "82460"
+    },
+    {
+      "id": 18,
+      "firstName": "Dennis",
+      "lastName": "Kohler",
+      "email": "Jane.Rath20@gmail.com",
+      "address": "400 Parisian Parks",
+      "city": "South Noemiton",
+      "state": "AR",
+      "zipcode": "41893-5661"
+    },
+    {
+      "id": 17,
+      "firstName": "Xander",
+      "lastName": "Turcotte",
+      "email": "Jedidiah97@yahoo.com",
+      "address": "15856 Hirthe Route",
+      "city": "Madilynchester",
+      "state": "GA",
+      "zipcode": "98814-6281"
+    },
+    {
+      "id": 16,
+      "firstName": "Aiyana",
+      "lastName": "Abbott",
+      "email": "Sienna.Wilkinson@hotmail.com",
+      "address": "1405 Turcotte Underpass",
+      "city": "The Hammocks",
+      "state": "GA",
+      "zipcode": "33007"
+    },
+    {
+      "id": 15,
+      "firstName": "Carmela",
+      "lastName": "Lueilwitz",
+      "email": "Madilyn_Conroy@yahoo.com",
+      "address": "1725 Nikolaus Cliffs",
+      "city": "Destineestad",
+      "state": "HI",
+      "zipcode": "93260-4585"
+    },
+    {
+      "id": 14,
+      "firstName": "Libbie",
+      "lastName": "Green",
+      "email": "Velva_Boyle@gmail.com",
+      "address": "9889 Ernestina Spring",
+      "city": "Prosaccohaven",
+      "state": "WA",
+      "zipcode": "14444"
+    },
+    {
+      "id": 13,
+      "firstName": "Christina",
+      "lastName": "Kuhic",
+      "email": "August22@yahoo.com",
+      "address": "3188 Lura Square",
+      "city": "Christiansenside",
+      "state": "CO",
+      "zipcode": "41531-6498"
+    },
+    {
+      "id": 12,
+      "firstName": "Summer",
+      "lastName": "Collins",
+      "email": "Ryley_Ernser@yahoo.com",
+      "address": "8437 Deshawn Fork",
+      "city": "New Cristopher",
+      "state": "MI",
+      "zipcode": "25338-9628"
+    },
+    {
+      "id": 11,
+      "firstName": "Itzel",
+      "lastName": "Robel",
+      "email": "Brittany.Ruecker@hotmail.com",
+      "address": "44887 Larson Ramp",
+      "city": "Purdychester",
+      "state": "WY",
+      "zipcode": "03317"
+    },
+    {
+      "id": 10,
+      "firstName": "King",
+      "lastName": "Bernier",
+      "email": "Neil.Parker0@hotmail.com",
+      "address": "85359 Rosie Stream",
+      "city": "Bonita Springs",
+      "state": "IL",
+      "zipcode": "97603-1797"
+    },
+    {
+      "id": 9,
+      "firstName": "Melody",
+      "lastName": "Baumbach",
+      "email": "Ruthie89@hotmail.com",
+      "address": "970 Esmeralda Plains",
+      "city": "Port Cale",
+      "state": "OR",
+      "zipcode": "22590-9365"
+    },
+    {
+      "id": 8,
+      "firstName": "Newton",
+      "lastName": "Hermiston",
+      "email": "Andreanne44@hotmail.com",
+      "address": "1615 Adeline Grove",
+      "city": "Palatine",
+      "state": "LA",
+      "zipcode": "21284"
+    },
+    {
+      "id": 7,
+      "firstName": "Victor",
+      "lastName": "Armstrong",
+      "email": "Branson_Breitenberg@gmail.com",
+      "address": "07831 Benny Union",
+      "city": "New Newton",
+      "state": "MD",
+      "zipcode": "94580-6176"
+    },
+    {
+      "id": 6,
+      "firstName": "Ayla",
+      "lastName": "Oberbrunner",
+      "email": "Gerard_Block93@yahoo.com",
+      "address": "3109 Auer Villages",
+      "city": "Boyletown",
+      "state": "WI",
+      "zipcode": "15000"
+    },
+    {
+      "id": 5,
+      "firstName": "Eli",
+      "lastName": "Miller",
+      "email": "Christopher.Williamson@yahoo.com",
+      "address": "8192 Dare Via",
+      "city": "Lessieburgh",
+      "state": "NC",
+      "zipcode": "26889"
+    },
+    {
+      "id": 4,
+      "firstName": "Ara",
+      "lastName": "Skiles",
+      "email": "Rylan_Rosenbaum@yahoo.com",
+      "address": "5608 Andre Squares",
+      "city": "Lake Kelsiestad",
+      "state": "GA",
+      "zipcode": "70173-7253"
+    },
+    {
+      "id": 3,
+      "firstName": "Nicolette",
+      "lastName": "Hammes",
+      "email": "Damian26@yahoo.com",
+      "address": "896 Runolfsdottir Ford",
+      "city": "South Nickolasside",
+      "state": "AK",
+      "zipcode": "35411-5972"
+    },
+    {
+      "id": 2,
+      "firstName": "Gonzalo",
+      "lastName": "Dickinson",
+      "email": "Fredrick_Swaniawski49@yahoo.com",
+      "address": "054 D'Amore Extension",
+      "city": "Crystalfort",
+      "state": "DE",
+      "zipcode": "45946-6449"
+    },
+    {
+      "id": 1,
+      "firstName": "Alvera",
+      "lastName": "Cruickshank",
+      "email": "Jazmin.Zboncak@gmail.com",
+      "address": "240 Daniel Shoal",
+      "city": "New Calitown",
+      "state": "KY",
+      "zipcode": "32017-6576"
+    },
+    {
+      "id": 0,
+      "firstName": "Raphael",
+      "lastName": "Boeh",
+      "email": "Melvina.Wehner65@gmail.com",
+      "address": "",
+      "city": "Calistad",
+      "state": "CO",
+      "zipcode": "23349-8769"
+    },
+    {
+      "firstName": "Test",
+      "lastName": "Micro",
+      "email": "test@micro.com",
+      "address": "116-71 Sutphin Blvd",
+      "city": "Jamaica",
+      "state": "New York",
+      "zipcode": "11434",
+      "id": 21
+    }
+  ],
+  "escrow": [
+    {
+      "id": 20,
+      "doa": "2021-05-06",
+      "client": "Carroll Schulist I",
+      "totalBill": "$ 319.85",
+      "currentBalance": "$ 148.65",
+      "proposedOffer": "$ 900.92",
+      "amountInEscrow": "$ 363.27"
+    },
+    {
+      "id": 19,
+      "doa": "2020-07-27",
+      "client": "Jo Hintz",
+      "totalBill": "$ 877.32",
+      "currentBalance": "$ 421.92",
+      "proposedOffer": "$ 574.86",
+      "amountInEscrow": "$ 254.39"
+    },
+    {
+      "id": 18,
+      "doa": "2021-02-18",
+      "client": "Kelli Crist",
+      "totalBill": "$ 130.25",
+      "currentBalance": "$ 458.55",
+      "proposedOffer": "$ 70.28",
+      "amountInEscrow": "$ 690.63"
+    },
+    {
+      "id": 17,
+      "doa": "2021-02-04",
+      "client": "Lois Douglas",
+      "totalBill": "$ 576.37",
+      "currentBalance": "$ 144.51",
+      "proposedOffer": "$ 632.46",
+      "amountInEscrow": "$ 892.19"
+    },
+    {
+      "id": 16,
+      "doa": "2021-04-09",
+      "client": "Felicia Muller",
+      "totalBill": "$ 966.50",
+      "currentBalance": "$ 982.50",
+      "proposedOffer": "$ 541.86",
+      "amountInEscrow": "$ 176.01"
+    },
+    {
+      "id": 15,
+      "doa": "2021-05-09",
+      "client": "Robert O'Connell V",
+      "totalBill": "$ 595.24",
+      "currentBalance": "$ 720.31",
+      "proposedOffer": "$ 494.19",
+      "amountInEscrow": "$ 54.02"
+    },
+    {
+      "id": 14,
+      "doa": "2021-02-23",
+      "client": "Rita Ullrich",
+      "totalBill": "$ 836.71",
+      "currentBalance": "$ 554.20",
+      "proposedOffer": "$ 642.07",
+      "amountInEscrow": "$ 80.43"
+    },
+    {
+      "id": 13,
+      "doa": "2021-06-04",
+      "client": "Jennie Reilly",
+      "totalBill": "$ 324.38",
+      "currentBalance": "$ 971.99",
+      "proposedOffer": "$ 50.11",
+      "amountInEscrow": "$ 884.97"
+    },
+    {
+      "id": 12,
+      "doa": "2021-05-03",
+      "client": "Mr. Phyllis Crooks",
+      "totalBill": "$ 206.17",
+      "currentBalance": "$ 745.53",
+      "proposedOffer": "$ 162.53",
+      "amountInEscrow": "$ 428.16"
+    },
+    {
+      "id": 11,
+      "doa": "2021-03-17",
+      "client": "Shirley Graham",
+      "totalBill": "$ 890.63",
+      "currentBalance": "$ 506.84",
+      "proposedOffer": "$ 285.82",
+      "amountInEscrow": "$ 631.35"
+    },
+    {
+      "id": 10,
+      "doa": "2020-09-19",
+      "client": "Courtney Jaskolski",
+      "totalBill": "$ 592.86",
+      "currentBalance": "$ 435.50",
+      "proposedOffer": "$ 377.74",
+      "amountInEscrow": "$ 431.77"
+    },
+    {
+      "id": 9,
+      "doa": "2021-01-24",
+      "client": "Marie Wolf",
+      "totalBill": "$ 615.39",
+      "currentBalance": "$ 5.17",
+      "proposedOffer": "$ 857.55",
+      "amountInEscrow": "$ 227.64"
+    },
+    {
+      "id": 8,
+      "doa": "2021-04-20",
+      "client": "Luke Wunsch",
+      "totalBill": "$ 83.61",
+      "currentBalance": "$ 766.30",
+      "proposedOffer": "$ 381.46",
+      "amountInEscrow": "$ 308.07"
+    },
+    {
+      "id": 7,
+      "doa": "2020-10-01",
+      "client": "Nathaniel Gleichner",
+      "totalBill": "$ 879.22",
+      "currentBalance": "$ 800.54",
+      "proposedOffer": "$ 775.82",
+      "amountInEscrow": "$ 318.26"
+    },
+    {
+      "id": 6,
+      "doa": "2021-04-10",
+      "client": "Evan Goldner",
+      "totalBill": "$ 582.29",
+      "currentBalance": "$ 199.71",
+      "proposedOffer": "$ 541.50",
+      "amountInEscrow": "$ 101.70"
+    },
+    {
+      "id": 5,
+      "doa": "2020-06-10",
+      "client": "Garry Schaden",
+      "totalBill": "$ 690.74",
+      "currentBalance": "$ 546.38",
+      "proposedOffer": "$ 729.00",
+      "amountInEscrow": "$ 220.42"
+    },
+    {
+      "id": 4,
+      "doa": "2020-11-13",
+      "client": "Nicolas Hagenes",
+      "totalBill": "$ 424.55",
+      "currentBalance": "$ 270.06",
+      "proposedOffer": "$ 606.61",
+      "amountInEscrow": "$ 408.06"
+    },
+    {
+      "id": 3,
+      "doa": "2021-01-26",
+      "client": "Kent Hane",
+      "totalBill": "$ 619.73",
+      "currentBalance": "$ 67.48",
+      "proposedOffer": "$ 743.86",
+      "amountInEscrow": "$ 406.72"
+    },
+    {
+      "id": 2,
+      "doa": "2020-10-23",
+      "client": "Viola Hoppe",
+      "totalBill": "$ 881.85",
+      "currentBalance": "$ 850.68",
+      "proposedOffer": "$ 637.61",
+      "amountInEscrow": "$ 48.21"
+    },
+    {
+      "id": 1,
+      "doa": "2021-02-03",
+      "client": "Eleanor Kohler",
+      "totalBill": "$ 374.04",
+      "currentBalance": "$ 310.21",
+      "proposedOffer": "$ 803.74",
+      "amountInEscrow": "$ 533.66"
+    }
+  ]
+}
