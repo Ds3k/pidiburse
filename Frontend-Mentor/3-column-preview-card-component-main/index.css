@@ -1,0 +1,116 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+    background-color: var(--very-light-gray);
+    color: var(--transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0em 2em ;
+}
+
+button {
+    background-color: var(--very-light-gray);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 0.75rem 1rem;
+    margin-top: 2rem;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    color: var(--bright-orange);
+}
+
+.button1:hover {
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
+
+.button2 {
+    color: var(--dark-cyan);
+}
+
+.button2:hover {
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
+
+.button3 {
+    color: var(--very-dark-cyan);
+}
+
+.button3:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
+
+
+h1 {
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: center;
+    color: black; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 55rem;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    padding: 2rem;
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+    padding: 2rem;
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    padding: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
