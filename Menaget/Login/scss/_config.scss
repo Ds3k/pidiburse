@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Airbnb Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Medium'), url('../fonts/AirbnbCerealMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Airbnb Cereal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Airbnb Cereal App Book'), url('../fonts/AirbnbCerealBook.woff') format('woff');
+}
+
+$airbnb-medium: 'Airbnb Medium', sans-serif;
+$airbnb-cereal: 'Airbnb Cereal', sans-serif;
+$primary-color: hsl(0, 0%, 96%);
+$dark-color: hsl(44, 2%,6%);
+$gray: #808080;
+$light-gray: hsl(0, 0%, 91%);
+$secondary-color: hsl(195, 100%, 36%);
